@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+body {
+  font-size: 0.2rem;
+  background-color: #F7F9FF; }
+
+.header {
+  width: 6.4rem;
+  height: 0.75rem; }
+  .header .head {
+    width: 5.88rem;
+    padding: 0 0.26rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem 0 #E8E8E8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; }
+    .header .head .hleft {
+      width: 0.2rem;
+      height: 0.31rem; }
+      .header .head .hleft img {
+        width: 100%;
+        height: auto; }
+    .header .head .mid {
+      font-size: 0.31rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .header .head .hright {
+      width: 0.35rem; }
+      .header .head .hright img {
+        width: 100%;
+        height: auto; }
+
+.swiper-pagination-bullet-active {
+  background-color: #ffd200; }
+
+.banner {
+  width: 6.4rem;
+  height: 6.4rem; }
+  .banner .swiper-slide img {
+    width: 100%;
+    height: 100%; }
+
+.contians1 {
+  width: 100%; }
+  .contians1 .con1 {
+    margin-bottom: 0.1rem;
+    padding: 0.5rem 0.25rem 0 0.25rem;
+    background-color: #fff; }
+    .contians1 .con1 .personal {
+      display: flex;
+      position: relative; }
+      .contians1 .con1 .personal .listimg {
+        width: 1.02rem;
+        height: 1.02rem;
+        border-radius: 50%;
+        margin: 0 0.3rem 0 0.08rem; }
+      .contians1 .con1 .personal .mid p:nth-of-type(1) {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem; }
+        .contians1 .con1 .personal .mid p:nth-of-type(1) .name {
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Regular",Arial, Helvetica, sans-serif;
+          margin-right: 0.18rem; }
+        .contians1 .con1 .personal .mid p:nth-of-type(1) .sex, .contians1 .con1 .personal .mid p:nth-of-type(1) .real-name, .contians1 .con1 .personal .mid p:nth-of-type(1) .video {
+          margin-right: 0.13rem; }
+        .contians1 .con1 .personal .mid p:nth-of-type(1) .sex {
+          width: 0.52rem;
+          height: 0.23rem; }
+      .contians1 .con1 .personal .mid p:nth-of-type(2) {
+        font-size: 0.2rem;
+        color: #aaa;
+        font-family: "PingFang-SC-Regular",Arial, Helvetica, sans-serif; }
+        .contians1 .con1 .personal .mid p:nth-of-type(2) .timer {
+          margin-right: 0.2rem; }
+      .contians1 .con1 .personal .check {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #fa719a;
+        font-size: 0.18rem;
+        font-family: "PingFang-SC-Regular", Arial, Helvetica, sans-serif; }
+        .contians1 .con1 .personal .check span {
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          font-size: 0.28rem;
+          font-weight: 600; }
+    .contians1 .con1 .meet {
+      margin-top: 0.26rem;
+      position: relative; }
+      .contians1 .con1 .meet .cir {
+        width: 0.1rem;
+        height: 0.1rem;
+        background-color: #dbdbdb;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+        margin-right: 0.17rem; }
+      .contians1 .con1 .meet .describe {
+        font-size: 0.29rem;
+        font-weight: 600;
+        color: #333;
+        font-family: "PingFang-SC-Regular",Arial, Helvetica, sans-serif;
+        margin-bottom: 0.29rem;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      .contians1 .con1 .meet .yue, .contians1 .con1 .meet .hour, .contians1 .con1 .meet .remarks {
+        font-size: 0.23rem;
+        color: #666;
+        font-family: "PingFang-SC-Regular",Arial, Helvetica, sans-serif;
+        margin-bottom: 0.29rem;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      .contians1 .con1 .meet .yue .yuesex, .contians1 .con1 .meet .yue .project {
+        margin-right: 0.21rem; }
+      .contians1 .con1 .meet .hour .date, .contians1 .con1 .meet .hour .time-slot {
+        margin-right: 0.21rem; }
+      .contians1 .con1 .meet .num {
+        font-size: 0.23rem;
+        color: #666;
+        font-family: "PingFang-SC-Regular",Arial, Helvetica, sans-serif;
+        margin-bottom: 0.29rem; }
+      .contians1 .con1 .meet .remarks .firends, .contians1 .con1 .meet .remarks .transfers, .contians1 .con1 .meet .remarks .wine {
+        margin-right: 0.21rem; }
+      .contians1 .con1 .meet .img1 {
+        height: 0.53rem;
+        margin-bottom: 0.29rem;
+        line-height: 0.53rem; }
+        .contians1 .con1 .meet .img1 .vio {
+          width: 1.54rem;
+          height: 0.53rem;
+          background-color: #ffd200;
+          border-radius: 0.1rem;
+          display: inline-block; }
+          .contians1 .con1 .meet .img1 .vio img {
+            width: 0.2rem;
+            height: 0.25rem;
+            margin-left: 0.21rem; }
+        .contians1 .con1 .meet .img1 .second-num {
+          margin-left: 0.12rem;
+          font-size: 0.19rem;
+          color: #aaa;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .contians1 .con1 .explain {
+      border-top: 1px solid #dbdbdb;
+      padding-top: 0.32rem;
+      height: 1.39rem;
+      font-size: 0.23rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      color: #aaa; }
+  .contians1 .con3 {
+    padding: 0.35rem 0.25rem 0;
+    background-color: #fff;
+    margin-bottom: 0.85rem; }
+    .contians1 .con3 .impression .top-impre {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.24rem;
+      color: #aaa;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      margin-bottom: 0.45rem; }
+    .contians1 .con3 .impression .btm-impre {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 0.26rem;
+      border-bottom: 1px solid #ececec;
+      margin-bottom: 0.18rem; }
+      .contians1 .con3 .impression .btm-impre .impreli {
+        margin-right: 0.32rem;
+        width: 1.11rem;
+        height: 0.5rem;
+        text-align: center;
+        line-height: 0.5rem;
+        background-color: #ffd200;
+        margin-bottom: 0.17rem;
+        border-radius: 0.5rem;
+        color: #fff;
+        font-size: 0.21rem;
+        font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif; }
+    .contians1 .con3 .comment .comli {
+      padding-top: 0.25rem;
+      border-bottom: 1px solid #ececec; }
+      .contians1 .con3 .comment .comli .user {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.15rem; }
+        .contians1 .con3 .comment .comli .user .userl {
+          display: flex; }
+          .contians1 .con3 .comment .comli .user .userl .userimg {
+            width: 0.7rem;
+            height: 0.7rem;
+            border-radius: 50%;
+            margin-right: 0.18rem; }
+          .contians1 .con3 .comment .comli .user .userl .userm {
+            font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+            .contians1 .con3 .comment .comli .user .userl .userm .name {
+              color: #aaa;
+              font-size: 0.21rem;
+              margin: 0.05rem 0 0.07rem; }
+            .contians1 .con3 .comment .comli .user .userl .userm .timer {
+              font-size: 0.17rem;
+              color: #dbdbdb; }
+        .contians1 .con3 .comment .comli .user .userr span {
+          display: inline-block;
+          width: 0.2rem;
+          height: 0.2rem; }
+          .contians1 .con3 .comment .comli .user .userr span img {
+            width: 100%;
+            height: 100%; }
+      .contians1 .con3 .comment .comli .comp {
+        font-size: 0.22rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        line-height: 0.37rem;
+        margin-bottom: 0.24rem; }
+    .contians1 .con3 .comment .more {
+      height: 0.85rem;
+      line-height: 0.85rem;
+      text-align: center;
+      color: #666;
+      opacity: 0.4;
+      font-size: 0.2rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+  .contians1 .yaoyue {
+    width: 5.56rem;
+    height: 0.75rem;
+    background-color: #ffd200;
+    margin: 0 auto 0.27rem;
+    text-align: center;
+    line-height: 0.75rem;
+    font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+    font-size: 0.26rem;
+    color: #fff;
+    border-radius: 0.5rem; }
+
+/*# sourceMappingURL=pre-details.css.map */

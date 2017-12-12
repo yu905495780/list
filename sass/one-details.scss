@@ -1,0 +1,172 @@
+@charset "utf-8";
+*{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  font-size: 0.2rem;
+  background-color: #F7F9FF;
+}
+
+.header{
+  width: 6.4rem;
+  height: 0.75rem;
+  .head{
+    width: 5.88rem;
+    padding: 0 0.26rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem 0 #E8E8E8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    .hleft{
+      width: 0.2rem;
+      height: 0.31rem;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .mid{
+      font-size: 0.31rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+    }
+    .hright{
+      width: 0.35rem;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.details{
+  padding: 0.45rem 0.17rem;
+  .information{
+    display: flex;
+    .detal{
+      img{
+        width: 1.02rem;
+        height: 1.02rem;
+        border-radius: 50%;
+        margin: 0 0.25rem 0.25rem 0.16rem;
+      }
+    }
+    .detar{
+      p:nth-of-type(1){
+        margin: 0.18rem 0 ;
+        .name{
+          font-size: 0.26rem;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+          color: #333;
+          margin-right: 0.18rem;
+        }
+        .sex,.real-name,.video{
+          margin-right: 0.12rem;
+        }
+      }
+      p:nth-of-type(2){
+        font-size: 0.18rem;
+        font-family: "PingFang-SC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        .timer{
+          margin-right: 0.12rem;
+        }
+      }
+    }
+  }
+  .deta-con{
+    padding: 0.56rem 0.53rem 1.17rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    position: relative;
+    .deta-type{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-bottom: 0.62rem;
+      .detypimg{
+        height: 0.42rem;
+      }
+    }
+    .detaul{
+      .detali{
+        margin-bottom: 0.38rem;
+        .icon{
+          margin-right: 0.3rem;
+          img{
+            height: 0.31rem;
+          }
+        }
+        .title{
+          font-family: "PingFang-SC-Regular", Arial, Helvetica, sans-serif;
+          font-size: 0.27rem;
+          color: #666;
+        }
+      }
+    }
+    .deta-price{
+      height: 0.74rem;
+      line-height: 0.74rem;
+      font-size: 0.39rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      text-align: center;
+      color: #fa719a;
+    }
+    .qiang-wrap{
+      position: absolute;
+      left: 50%;
+      margin-left: -0.985rem;
+      bottom: -1rem;
+      border: 0.16rem solid rgba(255,218,43,0.4);
+      border-radius: 50%;
+      .qiang-box{
+        width: 1.37rem;
+        height: 1.37rem;
+        background-color: #ffd200;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 1.37rem;
+        font-size: 0.5rem;
+        color: #fff;
+        font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+        border: 0.14rem solid #FFFFFF;
+        .qiang-span{
+          display: inline-block;
+          width: 0.16rem;
+          height: 0.16rem;
+          background-color: #fff;
+          border-radius: 50%;
+          position: absolute;
+          top: -0.16rem;
+          left: 50%;
+          margin-left: -0.08rem;
+        }
+      }
+    }
+
+  }
+  .tip{
+    margin-top: 1.46rem;
+    text-align: center;
+    font-size: 0.2rem;
+    font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+    color: #aaa;
+  }
+}

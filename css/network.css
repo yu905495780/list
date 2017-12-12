@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+body {
+  font-size: 0.2rem;
+  background-color: #F7F9FF; }
+
+.header-wrap {
+  width: 100%;
+  height: 1.44rem;
+  margin-bottom: 0.06rem; }
+  .header-wrap .header-box {
+    width: 100%;
+    height: 1.44rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; }
+    .header-wrap .header-box .head-top {
+      width: 100%;
+      height: 0.75rem;
+      background: linear-gradient(90deg, #fa719a 1%, #fee141 100%);
+      text-align: center;
+      line-height: 0.75rem;
+      font-size: 0.28rem;
+      font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+      color: #fff; }
+    .header-wrap .header-box .head-bot {
+      padding: 0 1.37rem;
+      height: 0.69rem;
+      line-height: 0.69rem;
+      display: flex;
+      justify-content: space-between;
+      background-color: #FFFFFF; }
+      .header-wrap .header-box .head-bot .head-tab {
+        font-size: 0.23rem;
+        font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+        position: relative; }
+        .header-wrap .header-box .head-bot .head-tab a {
+          color: #333; }
+        .header-wrap .header-box .head-bot .head-tab .bor {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          display: inline-block;
+          width: 0.32rem;
+          height: 0.04rem;
+          background: #fa719a;
+          margin-left: -0.16rem; }
+
+/*.news{
+  margin: 0 auto 0.15rem;
+  width: 1.46rem;
+  height: 0.44rem;
+  background: #F8C2D5;
+  text-align: center;
+  line-height: 0.44rem;
+  color: #fff;
+  font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+  font-size: 0.2rem;
+  border-radius: 0.5rem;
+}*/
+.qlist {
+  width: 100%;
+  height: auto; }
+  .qlist .mood-img {
+    padding: 0.35rem 0.47rem 0.19rem 0.24rem;
+    background-color: #fff;
+    margin-bottom: 0.06rem; }
+    .qlist .mood-img .person {
+      display: flex; }
+      .qlist .mood-img .person .berson-img {
+        position: relative;
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-right: 0.12rem; }
+        .qlist .mood-img .person .berson-img .head-portrait {
+          width: 0.7rem;
+          height: 0.7rem;
+          border-radius: 50%; }
+        .qlist .mood-img .person .berson-img .head-portrait1 {
+          width: 0.7rem;
+          height: 0.7rem;
+          box-sizing: border-box;
+          border-radius: 50%;
+          border: 2px solid #FEDE3D;
+          position: absolute;
+          z-index: 2; }
+        .qlist .mood-img .person .berson-img .crown {
+          width: 0.38rem;
+          height: 0.3rem;
+          position: absolute;
+          left: -0.07rem;
+          top: -0.12rem;
+          z-index: 0; }
+      .qlist .mood-img .person .per-tit .per-p1 {
+        margin-bottom: 0.12rem; }
+        .qlist .mood-img .person .per-tit .per-p1 .name {
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          color: #333;
+          vertical-align: middle; }
+        .qlist .mood-img .person .per-tit .per-p1 .sex {
+          display: inline-block;
+          padding: 0 0.07rem;
+          background-color: #FDC5F1;
+          border-radius: 0.05rem;
+          vertical-align: middle;
+          line-height: 0.26rem;
+          color: #fff;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+          .qlist .mood-img .person .per-tit .per-p1 .sex img {
+            height: 0.22rem;
+            vertical-align: middle; }
+          .qlist .mood-img .person .per-tit .per-p1 .sex .age {
+            font-size: 0.15rem; }
+        .qlist .mood-img .person .per-tit .per-p1 .name, .qlist .mood-img .person .per-tit .per-p1 .sex, .qlist .mood-img .person .per-tit .per-p1 .real-name, .qlist .mood-img .person .per-tit .per-p1 .video, .qlist .mood-img .person .per-tit .per-p1 .vehicle {
+          margin-right: 0.13rem; }
+        .qlist .mood-img .person .per-tit .per-p1 .real-name img, .qlist .mood-img .person .per-tit .per-p1 .video img, .qlist .mood-img .person .per-tit .per-p1 .vehicle img {
+          width: auto;
+          height: 0.3rem; }
+      .qlist .mood-img .person .per-tit .per-p2 {
+        font-size: 0.17rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .qlist .mood-img .title {
+      margin-left: 0.77rem;
+      margin-top: 0.07rem; }
+      .qlist .mood-img .title .title-txt {
+        font-size: 0.23rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 0.36rem; }
+        .qlist .mood-img .title .title-txt .down-arrow {
+          width: 0.1rem;
+          height: auto; }
+      .qlist .mood-img .title .title-imgbox {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.09rem 0; }
+        .qlist .mood-img .title .title-imgbox .title-img {
+          width: 1.55rem;
+          height: 1.55rem;
+          border-radius: 0.1rem; }
+      .qlist .mood-img .title .title-videobox {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.09rem 0; }
+        .qlist .mood-img .title .title-videobox .video-box {
+          width: 1.55rem;
+          height: 1.55rem;
+          border-radius: 0.1rem;
+          position: relative; }
+          .qlist .mood-img .title .title-videobox .video-box .title-img {
+            width: 1.55rem;
+            height: 1.55rem;
+            border-radius: 0.1rem; }
+          .qlist .mood-img .title .title-videobox .video-box .suspend-btn {
+            width: 0.64rem;
+            height: 0.64rem;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto; }
+      .qlist .mood-img .title .positions {
+        display: flex; }
+        .qlist .mood-img .title .positions img {
+          width: 0.19rem;
+          height: 0.22rem;
+          vertical-align: middle;
+          margin-top: 0.04rem; }
+        .qlist .mood-img .title .positions span {
+          margin-left: 0.1rem;
+          line-height: 0.31rem;
+          font-size: 0.16rem;
+          color: #aaa;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+      .qlist .mood-img .title .fabulous {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.16rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        margin-top: 0.2rem; }
+        .qlist .mood-img .title .fabulous .fab-p2 .zan-box {
+          margin-right: 0.3rem; }
+          .qlist .mood-img .title .fabulous .fab-p2 .zan-box .zan {
+            height: 0.28rem;
+            width: auto; }
+        .qlist .mood-img .title .fabulous .fab-p2 .ping-box .ping {
+          height: 0.28rem;
+          width: auto; }
+  .qlist .authen-box {
+    padding: 0.35rem 0.47rem 0.19rem 0.24rem;
+    background-color: #fff;
+    margin-bottom: 0.06rem; }
+    .qlist .authen-box .person {
+      display: flex; }
+      .qlist .authen-box .person .berson-img {
+        position: relative;
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-right: 0.12rem; }
+        .qlist .authen-box .person .berson-img .head-portrait {
+          width: 0.7rem;
+          height: 0.7rem;
+          border-radius: 50%; }
+        .qlist .authen-box .person .berson-img .head-portrait1 {
+          width: 0.7rem;
+          height: 0.7rem;
+          box-sizing: border-box;
+          border-radius: 50%;
+          border: 2px solid #FEDE3D;
+          position: absolute;
+          z-index: 2; }
+        .qlist .authen-box .person .berson-img .crown {
+          width: 0.38rem;
+          height: 0.3rem;
+          position: absolute;
+          left: -0.07rem;
+          top: -0.12rem;
+          z-index: 0; }
+      .qlist .authen-box .person .per-tit .per-p1 {
+        margin-bottom: 0.12rem; }
+        .qlist .authen-box .person .per-tit .per-p1 .name {
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          color: #333;
+          vertical-align: middle; }
+        .qlist .authen-box .person .per-tit .per-p1 .sex {
+          display: inline-block;
+          padding: 0 0.07rem;
+          background-color: #FDC5F1;
+          border-radius: 0.05rem;
+          vertical-align: middle;
+          line-height: 0.26rem;
+          color: #fff;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+          .qlist .authen-box .person .per-tit .per-p1 .sex img {
+            height: 0.22rem;
+            vertical-align: middle; }
+          .qlist .authen-box .person .per-tit .per-p1 .sex .age {
+            font-size: 0.15rem; }
+        .qlist .authen-box .person .per-tit .per-p1 .name, .qlist .authen-box .person .per-tit .per-p1 .sex, .qlist .authen-box .person .per-tit .per-p1 .real-name, .qlist .authen-box .person .per-tit .per-p1 .video, .qlist .authen-box .person .per-tit .per-p1 .vehicle {
+          margin-right: 0.13rem; }
+        .qlist .authen-box .person .per-tit .per-p1 .real-name img, .qlist .authen-box .person .per-tit .per-p1 .video img, .qlist .authen-box .person .per-tit .per-p1 .vehicle img {
+          width: auto;
+          height: 0.3rem; }
+      .qlist .authen-box .person .per-tit .per-p2 {
+        font-size: 0.17rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .qlist .authen-box .title {
+      margin-left: 0.77rem;
+      margin-top: 0.07rem; }
+      .qlist .authen-box .title .authen {
+        display: flex;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        margin: 0.1rem 0 0.15rem; }
+        .qlist .authen-box .title .authen img {
+          width: 0.4rem;
+          height: 0.4rem;
+          margin-right: 0.11rem; }
+        .qlist .authen-box .title .authen .title-p1 {
+          font-size: 0.22rem;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+          color: #333; }
+      .qlist .authen-box .title .fabulous {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.16rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        margin-top: 0.2rem; }
+        .qlist .authen-box .title .fabulous .fab-p2 .zan-box {
+          margin-right: 0.3rem; }
+          .qlist .authen-box .title .fabulous .fab-p2 .zan-box .zan {
+            height: 0.28rem;
+            width: auto; }
+        .qlist .authen-box .title .fabulous .fab-p2 .ping-box .ping {
+          height: 0.28rem;
+          width: auto; }
+  .qlist .photo {
+    padding: 0.35rem 0.47rem 0.19rem 0.24rem;
+    background-color: #fff;
+    margin-bottom: 0.06rem; }
+    .qlist .photo .person {
+      display: flex; }
+      .qlist .photo .person .berson-img {
+        position: relative;
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-right: 0.12rem; }
+        .qlist .photo .person .berson-img .head-portrait {
+          width: 0.7rem;
+          height: 0.7rem;
+          border-radius: 50%; }
+        .qlist .photo .person .berson-img .head-portrait1 {
+          width: 0.7rem;
+          height: 0.7rem;
+          box-sizing: border-box;
+          border-radius: 50%;
+          border: 2px solid #FEDE3D;
+          position: absolute;
+          z-index: 2; }
+        .qlist .photo .person .berson-img .crown {
+          width: 0.38rem;
+          height: 0.3rem;
+          position: absolute;
+          left: -0.07rem;
+          top: -0.12rem;
+          z-index: 0; }
+      .qlist .photo .person .per-tit .per-p1 {
+        margin-bottom: 0.12rem; }
+        .qlist .photo .person .per-tit .per-p1 .name {
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          color: #333;
+          vertical-align: middle; }
+        .qlist .photo .person .per-tit .per-p1 .sex {
+          display: inline-block;
+          padding: 0 0.07rem;
+          background-color: #FDC5F1;
+          border-radius: 0.05rem;
+          vertical-align: middle;
+          line-height: 0.26rem;
+          color: #fff;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+          .qlist .photo .person .per-tit .per-p1 .sex img {
+            height: 0.22rem;
+            vertical-align: middle; }
+          .qlist .photo .person .per-tit .per-p1 .sex .age {
+            font-size: 0.15rem; }
+        .qlist .photo .person .per-tit .per-p1 .name, .qlist .photo .person .per-tit .per-p1 .sex, .qlist .photo .person .per-tit .per-p1 .real-name, .qlist .photo .person .per-tit .per-p1 .video, .qlist .photo .person .per-tit .per-p1 .vehicle {
+          margin-right: 0.13rem; }
+        .qlist .photo .person .per-tit .per-p1 .real-name img, .qlist .photo .person .per-tit .per-p1 .video img, .qlist .photo .person .per-tit .per-p1 .vehicle img {
+          width: auto;
+          height: 0.3rem; }
+      .qlist .photo .person .per-tit .per-p2 {
+        font-size: 0.17rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .qlist .photo .title {
+      margin-left: 0.77rem;
+      margin-top: 0.07rem; }
+      .qlist .photo .title .title-imgbox {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.09rem 0; }
+        .qlist .photo .title .title-imgbox .title-img {
+          width: 1.55rem;
+          height: 1.55rem;
+          border-radius: 0.1rem; }
+      .qlist .photo .title .fabulous {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.16rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        margin-top: 0.2rem; }
+        .qlist .photo .title .fabulous .fab-p2 .zan-box {
+          margin-right: 0.3rem; }
+          .qlist .photo .title .fabulous .fab-p2 .zan-box .zan {
+            height: 0.28rem;
+            width: auto; }
+        .qlist .photo .title .fabulous .fab-p2 .ping-box .ping {
+          height: 0.28rem;
+          width: auto; }
+  .qlist .portrait-box {
+    padding: 0.35rem 0.47rem 0.19rem 0.24rem;
+    background-color: #fff;
+    margin-bottom: 0.06rem; }
+    .qlist .portrait-box .person {
+      display: flex; }
+      .qlist .portrait-box .person .berson-img {
+        position: relative;
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-right: 0.12rem; }
+        .qlist .portrait-box .person .berson-img .head-portrait {
+          width: 0.7rem;
+          height: 0.7rem;
+          border-radius: 50%; }
+        .qlist .portrait-box .person .berson-img .head-portrait1 {
+          width: 0.7rem;
+          height: 0.7rem;
+          box-sizing: border-box;
+          border-radius: 50%;
+          border: 2px solid #FEDE3D;
+          position: absolute;
+          z-index: 2; }
+        .qlist .portrait-box .person .berson-img .crown {
+          width: 0.38rem;
+          height: 0.3rem;
+          position: absolute;
+          left: -0.07rem;
+          top: -0.12rem;
+          z-index: 0; }
+      .qlist .portrait-box .person .per-tit .per-p1 {
+        margin-bottom: 0.12rem; }
+        .qlist .portrait-box .person .per-tit .per-p1 .name {
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          color: #333;
+          vertical-align: middle; }
+        .qlist .portrait-box .person .per-tit .per-p1 .sex {
+          display: inline-block;
+          padding: 0 0.07rem;
+          background-color: #FDC5F1;
+          border-radius: 0.05rem;
+          vertical-align: middle;
+          line-height: 0.26rem;
+          color: #fff;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+          .qlist .portrait-box .person .per-tit .per-p1 .sex img {
+            height: 0.22rem;
+            vertical-align: middle; }
+          .qlist .portrait-box .person .per-tit .per-p1 .sex .age {
+            font-size: 0.15rem; }
+        .qlist .portrait-box .person .per-tit .per-p1 .name, .qlist .portrait-box .person .per-tit .per-p1 .sex, .qlist .portrait-box .person .per-tit .per-p1 .real-name, .qlist .portrait-box .person .per-tit .per-p1 .video, .qlist .portrait-box .person .per-tit .per-p1 .vehicle {
+          margin-right: 0.13rem; }
+        .qlist .portrait-box .person .per-tit .per-p1 .real-name img, .qlist .portrait-box .person .per-tit .per-p1 .video img, .qlist .portrait-box .person .per-tit .per-p1 .vehicle img {
+          width: auto;
+          height: 0.3rem; }
+      .qlist .portrait-box .person .per-tit .per-p2 {
+        font-size: 0.17rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif; }
+    .qlist .portrait-box .title {
+      margin-left: 0.77rem;
+      margin-top: 0.07rem; }
+      .qlist .portrait-box .title .title-imgbox {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.09rem 0; }
+        .qlist .portrait-box .title .title-imgbox .title-img {
+          width: 1.55rem;
+          height: 1.55rem;
+          border-radius: 0.1rem; }
+      .qlist .portrait-box .title .fabulous {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.16rem;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        color: #aaa;
+        margin-top: 0.2rem; }
+        .qlist .portrait-box .title .fabulous .fab-p2 .zan-box {
+          margin-right: 0.3rem; }
+          .qlist .portrait-box .title .fabulous .fab-p2 .zan-box .zan {
+            height: 0.28rem;
+            width: auto; }
+        .qlist .portrait-box .title .fabulous .fab-p2 .ping-box .ping {
+          height: 0.28rem;
+          width: auto; }
+
+.footer {
+  height: 0.7rem; }
+  .footer .foot {
+    width: 5.1rem;
+    display: flex;
+    padding: 0.15rem 0.65rem 0.09rem;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 -1px 10px 0 #ccc; }
+    .footer .foot .footli {
+      text-align: center; }
+      .footer .foot .footli img {
+        height: 0.34rem; }
+      .footer .foot .footli p {
+        font-size: 0.15rem;
+        color: #aaa; }
+
+/*# sourceMappingURL=network.css.map */

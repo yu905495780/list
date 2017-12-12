@@ -1,0 +1,275 @@
+@charset "utf-8";
+*{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  font-size: 0.2rem;
+  background-color: #F7F9FF;
+}
+
+.header{
+  width: 6.4rem;
+  height: 0.75rem;
+  .head{
+    width: 5.88rem;
+    padding: 0 0.26rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #fa719a 1%, #fee141 100%);
+    box-shadow: 0 0 0.2rem 0 #E8E8E8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    .hleft{
+      width: 0.2rem;
+      height: 0.31rem;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .mid{
+      font-size: 0.31rem;
+      color: #fff;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+    }
+    .hright{
+      width: 0.35rem;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.mood-img{
+  padding: 0.35rem 0.47rem 0.19rem 0.24rem;
+  background-color: #fff;
+  margin-bottom: 0.06rem;
+  .person{
+    display: flex;
+    .berson-img{
+      position: relative;
+      width: 0.7rem;
+      height: 0.7rem;
+      margin-right: 0.12rem;
+      .head-portrait{
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 50%;
+      }
+      .head-portrait1{
+        width: 0.7rem;
+        height: 0.7rem;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border:2px solid #FEDE3D;
+        position: absolute;
+        z-index: 2;
+      }
+      .crown{
+        width: 0.38rem;
+        height: 0.3rem;
+        position: absolute;
+        left: -0.07rem;
+        top: -0.12rem;
+        z-index: 0;
+      }
+    }
+    .per-tit{
+      .per-p1{
+        margin-bottom: 0.12rem;
+        .name{
+          font-size: 0.27rem;
+          font-family: "PingFang-SC-Medium", Arial, Helvetica, sans-serif;
+          color: #333;
+        }
+        .sex{
+          display: inline-block;
+          padding: 0.05rem 0.07rem;
+          background-color: #FDC5F1;
+          border-radius: 0.05rem;
+          vertical-align: middle;
+          line-height: 0.26rem;
+          .sex-img{
+            img{
+              height: 0.18rem;
+              vertical-align: middle;
+            }
+          }
+          color: #fff;
+          font-size: 0.14rem;
+          font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+        }
+        .name,.sex,.real-name,.video,.vehicle{
+          margin-right: 0.13rem;
+        }
+      }
+      .per-p2{
+        font-size: 0.17rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+  .title{
+    margin-left: 0.77rem;
+    margin-top: 0.07rem;
+    .title-txt{
+      font-size: 0.23rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 0.36rem;
+      .down-arrow{
+        width: 0.1rem;
+        height: auto;
+      }
+    }
+    .title-imgbox{
+      display: flex;
+      justify-content: space-between;
+      margin: 0.09rem 0;
+      .title-img{
+        width: 1.55rem;
+        height: 1.55rem;
+        border-radius: 0.1rem;
+      }
+    }
+    .title-videobox{
+      display: flex;
+      justify-content: space-between;
+      margin: 0.09rem 0;
+      .video-box{
+        width: 1.60rem;
+        height: 1.60rem;
+        border-radius: 0.1rem;
+        position: relative;
+        .title-img{
+          width: 1.55rem;
+          height: 1.55rem;
+          border-radius: 0.1rem;
+        }
+        .suspend-btn{
+          width: 0.64rem;
+          height: 0.64rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+    }
+    .positions{
+      display: flex;
+      img{
+        width: 0.19rem;
+        height: 0.22rem;
+        vertical-align: middle;
+        margin-top: 0.04rem;
+      }
+      span{
+        margin-left: 0.1rem;
+        line-height: 0.31rem;
+        font-size: 0.16rem;
+        color: #aaa;
+        font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      }
+    }
+    .fabulous{
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.16rem;
+      font-family: "PingFangSC-Regular", Arial, Helvetica, sans-serif;
+      color: #aaa;
+      margin-top: 0.2rem;
+      .fab-p2{
+        .zan-box{
+          margin-right: 0.3rem;
+          .zan{
+            height: 0.28rem;
+            width: auto;
+          }
+        }
+        .ping-box{
+          .ping{
+            height: 0.28rem;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.give-up{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.18rem 0.2rem;
+  background-color: #fff;
+  margin-bottom: 0.06rem;
+  .giveup-li{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-right: 0.09rem;
+    img{
+      width: 0.44rem;
+      height: 0.44rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.reply-wrap{
+  background-color: #fff;
+  margin-bottom: 0.06rem;
+  .reply-box{
+    padding: 0.22rem 0.43rem 0.22rem 0.53rem;
+    display: flex;
+    justify-content: space-between;
+    .reply-left{
+      display: flex;
+      .user-img{
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 50%;
+        margin-right:0.18rem;
+      }
+      .tit-box{
+        font-size: 0.26rem;
+        color: #333;
+        .titbox-top{
+          margin-bottom: 0.05rem;
+        }
+        .titbox-down{
+          .tit-user{
+
+          }
+          .tit-contains{
+
+          }
+        }
+      }
+    }
+    .reply-right{
+      font-size: 0.15rem;
+      color:#9F9F9F;
+    }
+  }
+}
